@@ -1,0 +1,6 @@
+[Unit]
+Description=test processor monitor
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/test-monitor.sh
