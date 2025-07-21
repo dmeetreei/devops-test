@@ -1,0 +1,11 @@
+[Unit]
+Description=Timer 60 s
+
+[Timer]
+OnBootSec=60      
+OnUnitActiveSec=60  
+
+Unit=test-monitor.service
+
+[Install]
+WantedBy=timers.target
